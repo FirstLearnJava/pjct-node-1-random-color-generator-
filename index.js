@@ -15,15 +15,11 @@ const actualRandomColor = randomColor({
 console.log(chalk.hex(actualRandomColor)('###############################'));
 console.log(chalk.hex(actualRandomColor)('###############################'));
 console.log(chalk.hex(actualRandomColor)('###############################'));
+console.log(chalk.hex(actualRandomColor)(`#####                     #####`));
 console.log(
   chalk.hex(actualRandomColor)(`#####       ${actualRandomColor}       #####`),
 );
-console.log(
-  chalk.hex(actualRandomColor)(`#####       ${actualRandomColor}       #####`),
-);
-console.log(
-  chalk.hex(actualRandomColor)(`#####       ${actualRandomColor}       #####`),
-);
+console.log(chalk.hex(actualRandomColor)(`#####                     #####`));
 console.log(chalk.hex(actualRandomColor)('###############################'));
 console.log(chalk.hex(actualRandomColor)('###############################'));
 console.log(chalk.hex(actualRandomColor)('###############################'));
